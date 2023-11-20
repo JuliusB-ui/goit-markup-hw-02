@@ -1,4 +1,55 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.logo {
+  height: 21px;
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.logo span {
+  color: blue;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+[type="button"] {
+  font: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
