@@ -17,13 +17,15 @@ body {
 
 .logo{
   height: 21px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: left;
   text-decoration: none;
+  color: vary(--iris);
 }
 
 .logo span {
