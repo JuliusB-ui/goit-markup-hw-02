@@ -3,6 +3,8 @@
   --cloud: #F4F4FD;
   --navy: #2E2F42;
   --cornflower: #E7E9FC;
+  --slate: #434455;
+  --link: none;
 }
 
 body {
@@ -13,6 +15,12 @@ body {
   letter-spacing: 2%;
   background-color: #FFFFFF;
   color: #434455;
+  
+}
+
+header {
+  background-color: var(--cornflower);
+  text-decoration: none;
 }
 
 .logo{
@@ -23,25 +31,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: var(--link);
   text-align: left;
-  text-decoration: none;
   color: vary(--iris);
-}
-
-.logo span {
-  color: var(--iris);
-}
-
-.logo.footer{
-  color: var(--cloud);
-}
-
-.logo.header {
-  color: var(--navy);
-}
-
-header {
-  background-color: var(--cornflower);
 }
 
 footer {
