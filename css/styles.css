@@ -10,6 +10,7 @@
 /* navy colored texts */
 .logo-head,
 .nav-link,
+.list,
 .section-title,
 .selection-title,
 .pf-item-title {
@@ -18,16 +19,19 @@
 
 /* remove list style and padding */
 .nav-list,
+.list,
 .contact-lists,
 .section-list,
 .filter,
 .pf-lists {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 /* link decoration */
+header,
 .nav-link,
+.logo-link,
 .contact-link {
   text-decoration: none;
 }
@@ -46,6 +50,7 @@ body{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  background-color: #FFFFFF;
 }
 
 /* TEXT FORMATS*/
@@ -81,7 +86,7 @@ body{
   background-color: var(--ocean);
 }
 
-.logo{
+.logo-link{
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -89,11 +94,10 @@ body{
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 /* nav format */
-.nav {
+.list {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
