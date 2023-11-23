@@ -29,14 +29,19 @@
 /* link decoration */
 header,
 .nav-link,
+.list-item,
 .logo-link,
 .contact-link {
   text-decoration: none;
 }
 
-/* pseudo-class - active */
+/* ocean pseudo-class color */
 .nav-link:active,
-.contact-link:active {
+.contact-link:active,
+.contact-link:hover,
+.contact-link:focus,
+.nav-link:hover,
+.nav-link:focus {
   color: var(--ocean);
 }
 
@@ -78,9 +83,10 @@ body{
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-/* pseudo-class */
+/* pseudo-class ocean */
 [type="button"]:hover,
-[type="button"]:active {
+[type="button"]:active,
+ {
   background-color: var(--ocean);
 }
 
