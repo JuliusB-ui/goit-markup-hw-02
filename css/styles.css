@@ -41,8 +41,9 @@ header,
 .contact-link:focus,
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--ocean);
+  color: var(--ocean)
 }
+
 
 /* body/general format*/
 body{
@@ -83,18 +84,10 @@ body{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-}
-/* pseudo-class ocean */
-.hero-button:hover,
-.hero-button:active,
-.filter-button:active,
-.filter-button:hover 
- {
-  background-color: var(--ocean);
   cursor: pointer;
 }
 
-.logo-link{
+.logo{
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -121,22 +114,31 @@ letter-spacing: 0.32px;
 
 /* Main format */
 /* Hero/Section 1 Format*/
-.section-1 {
-  color: #FFFFFF;
+.hero-section {
   background-color: var(--navy);
-  text-align: center;
 }
 .hero-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
 }
 .hero-button{
   background-color: var(--iris);
   color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:active,
+.filter-button:active,
+.filter-button:hover,
+.hero-button:focus,
+.filter-button:focus  {
+  background-color: var(--ocean);
 }
 
 /* section-2 */
@@ -152,6 +154,12 @@ letter-spacing: 0.32px;
 .section-4{
   text-align:center;
   background-color: var(--cloud);
+}
+.team-mg,
+.team-tf,
+.team-cg,
+.team-dw {
+  background-color: #FFFFFF;
 }
 
 /* Footer */
