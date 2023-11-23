@@ -4,5 +4,161 @@
   --navy: #2E2F42;
   --cornflower: #E7E9FC;
   --slate: #434455;
+  --ocean: #404BBF;
 }
 
+/* navy colored texts */
+.logo-head,
+.nav-link,
+.section-title,
+.selection-title,
+.pf-item-title {
+  color: var(--navy);
+}
+
+/* remove list style and padding */
+.nav-list,
+.contact-lists,
+.section-list,
+.filter,
+.pf-lists {
+  list-style: none;
+  padding: 0;
+}
+
+/* link decoration */
+.nav-link,
+.contact-link {
+  text-decoration: none;
+}
+
+/* pseudo-class - active */
+.nav-link:active,
+.contact-link:active {
+  color: var(--ocean);
+}
+
+/* body/general format*/
+body{
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* TEXT FORMATS*/
+/* H2 */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* h3 */
+.selection-title,
+.pf-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+/* buttons */
+[type="button"] {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+/* pseudo-class */
+[type="button"]:hover,
+[type="button"]:active {
+  background-color: var(--ocean);
+}
+
+.logo{
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* nav format */
+.nav {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
+/* contacts format */
+.contact-link {
+  font-style: normal;
+  color: inherit;
+}
+
+/* Main format */
+/* Hero/Section 1 Format*/
+.section-1 {
+  color: #FFFFFF;
+  background-color: var(--navy);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.hero-button{
+  background-color: var(--iris);
+  color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* section-2 */
+
+/* section-3
+.report,
+.apps,
+.articles{
+  border: 10px solid var(--black);
+} */
+
+/* section 4 */
+.section-4{
+  text-align:center;
+  background-color: var(--cloud);
+}
+
+/* Footer */
+.footer,
+.logo-foot{
+  color: var(--cloud);
+}
+
+.footer{
+  background-color: var(--navy);
+}
+
+
+/* Portfolio */
+.filter-button{
+  background-color: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+}
+
+/* item format */
+.pf-item {
+  border: 1px solid var(--cornflower);
+  background: #FFFFFF;
+}
