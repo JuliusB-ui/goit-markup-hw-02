@@ -8,7 +8,7 @@
 }
 
 /* navy colored texts */
-.logo-head,
+.logo-link span,
 .nav-link,
 .list,
 .section-title,
@@ -112,7 +112,7 @@ letter-spacing: 0.32px;
 .contacts,
 .contact-link {
   font-style: normal;
-  color: inherit;
+  color: var(--slate);
 }
 
 /* Main format */
@@ -150,7 +150,7 @@ letter-spacing: 0.32px;
 
 /* Footer */
 .footer,
-.logo-foot{
+.footer .logo-link span{
   color: var(--cloud);
 }
 
