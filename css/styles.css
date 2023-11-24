@@ -159,10 +159,7 @@ letter-spacing: 0.32px;
   text-align:center;
   background-color: var(--cloud);
 }
-.team-mg,
-.team-tf,
-.team-cg,
-.team-dw {
+.team-list {
   background-color: #FFFFFF;
 }
 
