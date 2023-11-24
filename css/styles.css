@@ -38,6 +38,7 @@ header,
 .link:active,
 .link:hover,
 .contacts .link:hover,
+.contacts .link:focus,
 .link:focus {
   color: var(--ocean);
 }
