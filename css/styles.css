@@ -28,7 +28,6 @@
 /* link decoration */
 header,
 .list-item,
-.logo,
 .link {
   text-decoration: none;
 }
@@ -36,9 +35,16 @@ header,
 /* ocean pseudo-class color */
 .link:active,
 .link:hover,
+.link:focus, 
+.nav .link:active,
+.nav .link:hover,
+.nav .link:focus, 
+.contacts .link:active,
 .contacts .link:hover,
 .contacts .link:focus,
-.link:focus {
+.footer .link:active,
+.footer .link:hover,
+.footer .link:focus {
   color: var(--ocean);
 }
 
@@ -86,7 +92,8 @@ body,
   border: 0;
 }
 
-.nav .link {
+.nav .link,
+.footer .link {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
