@@ -105,7 +105,7 @@ letter-spacing: 0.32px;
 
 /* contacts format */
 .contacts,
-.contacts.list.list-item.link {
+.contacts .link {
   font-style: normal;
   color: var(--slate);
 }
