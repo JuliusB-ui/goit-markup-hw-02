@@ -9,7 +9,7 @@
 
 /* navy colored texts */
 .logo-head,
-.nav.list.link,
+.nav .link,
 .list,
 .section-title,
 .selection-title,
@@ -37,6 +37,7 @@ header,
 /* ocean pseudo-class color */
 .link:active,
 .link:hover,
+.contacts .link:hover,
 .link:focus {
   color: var(--ocean);
 }
