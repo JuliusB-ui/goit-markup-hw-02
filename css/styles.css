@@ -41,7 +41,7 @@ header,
 .contact-link:focus,
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--ocean)
+  color: var(--ocean);
 }
 
 
@@ -73,7 +73,7 @@ body{
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 /* buttons */
@@ -83,7 +83,7 @@ body{
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -139,6 +139,7 @@ letter-spacing: 0.32px;
 .hero-button:focus,
 .filter-button:focus  {
   background-color: var(--ocean);
+  color: #FFFFFF
 }
 
 /* section-2 */
