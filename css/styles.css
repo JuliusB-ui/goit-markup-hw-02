@@ -9,7 +9,7 @@
 
 /* navy colored texts */
 .logo-head,
-.nav .link,
+.nav .list .link,
 .list,
 .section-title,
 .selection-title,
@@ -27,7 +27,6 @@
 
 /* link decoration */
 header,
-.nav-link,
 .list-item,
 .logo,
 .link {
@@ -87,7 +86,7 @@ body,
   border: 0;
 }
 
-.logo{
+.nav .link {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -98,7 +97,8 @@ body,
 }
 
 /* nav format */
-.nav {
+.nav,
+.nav .list .link {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
