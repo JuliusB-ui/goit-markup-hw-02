@@ -142,6 +142,9 @@ letter-spacing: 0.32px;
 }
 
 /* section-2 */
+.selection-p {
+  color: var(--slate);
+}
 
 /* section-3
 .report,
@@ -164,7 +167,7 @@ letter-spacing: 0.32px;
 
 /* Footer */
 .footer,
-.footer .logo span{
+.logo-footer{
   color: var(--cloud);
 }
 
